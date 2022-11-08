@@ -1,0 +1,125 @@
+.homeSlider{
+    height: calc(100vh - 90px);
+    transition: all 0.6s;
+    margin-bottom: -55px;
+}
+.homeImage .backgImg{
+    width: 70%;
+    position: absolute;
+    top: 38%;
+    right: 130px;
+    transform: translate(-130px, -38%);
+    
+}
+
+.content{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.6s;
+}
+
+.homeSlider:hover .home-text{
+    color: blueviolet;
+}
+.homeSlider:hover .homeSocial{
+    color: blueviolet;
+}
+.home-text{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.homeSocial{
+    text-align: center;
+    margin-top: 300px;
+    transition: all 0.8s;
+    margin-top: 350px;
+}
+.homeSocial .icon{
+    color: blueviolet;
+    margin-right: 35px;
+}
+
+.icon .fb,
+.icon .ig,
+.icon .tg,
+.icon .wp{
+    color: black;
+    font-size: 50px !important;
+}
+.fb:hover{
+    color: blue;
+}
+.ig:hover{
+    color: red;
+}
+.tg:hover{
+    color: darkblue;
+}
+.wp:hover{
+    color: green;
+}
+
+/* mobile */
+@media only screen and (max-width:380px){
+    .homeSlider{
+        height: calc(70vh - 60px);
+        transition: all 0.6s;
+    }
+    .home-text{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .homeImage .backgImg{
+        width: 80%;
+        position: absolute;
+        top: 28%;
+        right: 18px;
+        transform: translate(-18px, -28%);
+    }
+    .content{
+        height: 35%;
+       margin-top: 70px;
+        transition: all 0.6s;
+    }
+    .icon .fb,
+    .icon .ig,
+    .icon .tg,
+    .icon .wp{
+    color: black;
+    font-size: 40px !important;
+}
+    .homeSocial{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        transition: all 0.8s;
+        margin-top: 100px;
+    }
+    
+    
+}
+@media only screen and (max-width:600px){
+
+}
+@media only screen and (max-width:768px){
+
+}
+@media only screen and (max-width:992px){
+
+}
+@media only screen and (max-width:1200px){
+
+}

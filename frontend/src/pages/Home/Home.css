@@ -1,0 +1,60 @@
+.homeProduct{
+    margin: 10px 5%;
+}
+.carLogo{
+    margin: 50px 8%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+    box-shadow: 0px 10px 10px 9px rgb(194, 155, 231);
+}
+
+.carLogo img{
+    width: 240px;
+    height: 90px;
+    padding: 5px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.carLogo img:hover{
+    background-color: blueviolet;
+}
+
+/* mobile */
+@media only screen and (max-width:380px){
+    .homeProduct{
+        margin: 5px 1%;
+    }
+    .carLogo{
+        margin: 20px 4%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+        box-shadow: 0px 10px 10px 9px rgb(194, 155, 231);
+    }
+    
+    .carLogo img{
+        width: 100px;
+        height: 80px;
+        padding: 5px;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width:600px){
+
+}
+@media only screen and (max-width:768px){
+
+}
+@media only screen and (max-width:992px){
+
+}
+@media only screen and (max-width:1200px){
+
+}

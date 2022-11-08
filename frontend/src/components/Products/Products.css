@@ -1,0 +1,18 @@
+.filter-container{
+    
+    margin: 20px 12%;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.category .avto{
+font-size: 22px;
+padding-bottom: 20px;
+}
+

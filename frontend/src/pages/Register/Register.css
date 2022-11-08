@@ -1,0 +1,119 @@
+.register{
+    padding-top: 110px;
+    height: calc(100vh - 228px);
+    background-image: url('../../assets/letter-bg.png');
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-form{
+    padding: 8px ;
+    width: 100%;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.register .form-title{
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.register-container{
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 8px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register-container label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.register-container input{
+    width: 270px;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 8px;
+    color: #000;
+
+}
+
+.inputBox{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+
+.formText{
+    font-size: 18px;
+    color:#000;
+    padding-top: 10px;
+}
+.createAccount{
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+/* mobile */
+@media only screen and (max-width:380px){
+    .register{
+        padding-top: 80px;
+        height: calc(100vh - 200px);
+        background-image: url('../../assets/letter-bg.png');
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .register-container{
+        width: 300px;
+        height: 420px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 3px 8px grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .register-container input{
+        width: 255px;
+        font-size: 18px;
+        font-weight: 300;
+        padding: 8px;
+        color: #000;
+    
+    }
+    
+}
+@media only screen and (max-width:600px){
+
+}
+@media only screen and (max-width:768px){
+
+}
+@media only screen and (max-width:992px){
+
+}
+@media only screen and (max-width:1200px){
+
+}

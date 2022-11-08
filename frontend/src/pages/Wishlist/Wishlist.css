@@ -1,0 +1,88 @@
+.favorite-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 20px 8%;
+    margin-top: 45px;
+    min-height: 65vh;
+    padding-top: 40px;
+}
+.favorite-box{
+    flex: 1 1 300px;
+    min-width: 250px;
+    height: 350px;
+    box-shadow: 1px 3px 5px gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.favorite-box:hover{
+    box-shadow: 1px 9px 3px gray;
+}
+img{
+    width: 250px;
+}
+.productImg{
+    position: relative;
+
+}
+.favorite-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+.favorite-content .price{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.favorite-content .model{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.favorite-content .product-info .carYear,
+.favorite-content .product-info .motor,
+.favorite-content .product-info .mileage{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    padding-right: 6px;
+}
+
+
+/* mobile */
+@media only screen and (max-width:380px){
+    .favorite-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin: 20px 4%;
+        margin-top: 45px;
+        min-height: 65vh;
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width:600px){
+
+}
+@media only screen and (max-width:768px){
+
+}
+@media only screen and (max-width:992px){
+
+}
+@media only screen and (max-width:1200px){
+
+}

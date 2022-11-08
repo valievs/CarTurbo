@@ -1,0 +1,161 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 60px;
+    overflow: hidden;
+    padding: 20px 12%;
+    z-index: 100;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav .link{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 15px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    background-color: azure;
+    color: #000;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.navIcon{
+    font-size: 28px !important; 
+    cursor: pointer;
+    color: #fff;
+}
+.log{
+    margin-left: 8px;
+    font-size: 31px !important; 
+}
+.wish:hover{
+    color: orangered;
+    transform: scale(1.14);
+}
+.log:hover{
+    transform: scale(1.1);
+}
+
+.langBox{
+    margin-left: 30px;
+}
+
+.langBox select,
+ option{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+}
+
+.logout{
+    font-size: 24px !important;
+    margin-left: 12px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.logout:hover{
+    transform: scale(1.2);
+}
+
+
+/* mobile */
+
+@media only screen and (max-width:380px){
+    .navbar{
+        padding: 10px 4%;
+    }
+    
+    .logo h2{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .nav .link{
+        display: none;
+    }
+    .navIcon{
+        font-size: 23px !important; 
+    }
+    .log{
+        margin-left: 8px;
+        font-size: 28px !important; 
+    }
+    .logout{
+        font-size: 18px !important;
+        margin-left: 8px;
+    }
+}
+
+@media only screen and (max-width:600px){
+
+    .navbar{
+        padding: 10px 4%;
+    }
+    
+    .logo h2{
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .nav .link{
+        display: none;
+    }
+    .navIcon{
+        font-size: 27px !important; 
+    }
+    .log{
+        margin-left: 8px;
+        font-size: 30px !important; 
+    }
+    .logout{
+        font-size: 20px !important;
+        margin-left: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        padding: 10px 4%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar{
+        padding: 10px 4%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+}

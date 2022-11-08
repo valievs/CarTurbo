@@ -1,0 +1,33 @@
+section{
+    margin: 20px 14%;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+  background-color: rgb(247, 243, 243);
+
+}
+.floatBtn{
+  font-size: 119px !important;
+  font-weight: 700;
+}
+
+
+/* mobile */
+@media only screen and (max-width:380px){
+  
+}
+@media only screen and (max-width:600px){
+
+}
+@media only screen and (max-width:768px){
+
+}
+@media only screen and (max-width:992px){
+
+}
+@media only screen and (max-width:1200px){
+
+}

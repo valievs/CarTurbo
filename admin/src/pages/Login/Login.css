@@ -1,0 +1,72 @@
+.login{
+    padding-top: 110px;
+    height: calc(100vh - 228px);
+    width: 100vw;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-form{
+    padding: 8px ;
+    width: 100%;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login .form-title{
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.login-container{
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 8px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-container label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.login-container input{
+    width: 270px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px;
+    color: #000;
+
+}
+
+.inputBox{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+
+.formText{
+    font-size: 18px;
+    color:#000;
+    padding-top: 10px;
+}
+.createAccount{
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+    padding-top: 4px;
+}

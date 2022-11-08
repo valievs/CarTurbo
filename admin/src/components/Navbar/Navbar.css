@@ -1,0 +1,36 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 60px;
+    overflow: hidden;
+    padding: 20px 4%;
+    z-index: 100;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+

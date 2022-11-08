@@ -1,0 +1,116 @@
+.service{
+    margin: 10px 8%;
+    margin-bottom: 40px;
+}
+
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-container .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1 200px;
+    height: 220px;
+    border-radius: 8px;
+    margin-right: 20px;
+    padding: 10px;
+    box-shadow: 2px 4px 3px 2px gray;
+    transition: all 0.4s;
+}
+.service-content p{
+        min-height: 220px;
+}
+.icon-box{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: yellow;
+    color: blueviolet;
+    
+}
+.service-container .box p{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    padding-top: 10px;
+}
+.serviceIcon{
+    font-size: 50px !important;
+}
+.service-container .box:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+
+/* mobile */
+@media only screen and (max-width:380px){
+    .service{
+        margin: 10px 4%;
+        margin-bottom: 20px;
+    }
+    .service-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .service-container .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex: 1 1 120px;
+        height: 180px;
+        border-radius: 4px;
+        margin-right: 10px;
+        padding: 10px;
+        box-shadow: 2px 4px 3px 2px gray;
+        transition: all 0.4s;
+    }
+    .service-content p{
+            min-height: 170px;
+    }
+    .icon-box{
+        height: 37px;
+        width: 37px;
+        line-height: 37px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: yellow;
+        color: blueviolet;
+        
+    }
+    .service-container .box p{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18px;
+        padding-top: 10px;
+    }
+    .serviceIcon{
+        font-size: 34px !important;
+    }
+}
+@media only screen and (max-width:600px){
+
+}
+@media only screen and (max-width:768px){
+
+}
+@media only screen and (max-width:992px){
+
+}
+@media only screen and (max-width:1200px){
+
+}
